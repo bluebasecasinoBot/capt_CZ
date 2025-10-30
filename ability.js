@@ -121,7 +121,7 @@ __SYD.ablt_main_txt_el = (header , value , index)=>{
     const mobile = __p(["ablt","mobile"],false);
     return $(
         "p",
-        {style:`width:100%;font-weight:300;font-family:font1;font-size:25px;text-align:${mobile?"center":"left"};padding:30px;transition:all linear .2s;opacity:${__p(["ablt","currentTab"],0) === index ? "1":".6"};`+__sC["col-start"]({method:"add",style:{gap:"20px"}})+__sC["comic_lines"]()+__sC["comic_outline"]()},
+        {style:`width:100%;font-weight:300;font-family:font1;font-size:25px;text-align:${mobile?"center":"left"};padding:20px;transition:all linear .2s;opacity:${__p(["ablt","currentTab"],0) === index ? "1":".6"};`+__sC["col-start"]({method:"add",style:{gap:"20px",alignItems:"center"}})+__sC["comic_lines"]()+__sC["comic_outline"]()},
         [
             $(
                 "p",
