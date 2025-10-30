@@ -62,7 +62,7 @@ __SYD.footer_main_child2 = () =>{
                                 {style:'display:flex;column-gap:10px;padding:5px;width:fit-content;align-items:center'},
                                 [
                                     __SYD.iconify_20px({attr:'fa-brands fa-x-twitter' , clr :'#F3BA2F'}),//<i class="fa-solid fa-envelope-open-text"></i>
-                                    __c('a',{href:"#"},[__SYD.text_lib_type_p_glob_vmax({cnt:'Twitter', size:'14px' , w:'500',clr:'#F3BA2F'})]),
+                                    __c('a',{href:"https://x.com/CptCZbnb"},[__SYD.text_lib_type_p_glob_vmax({cnt:'Twitter', size:'14px' , w:'500',clr:'#F3BA2F'})]),
                                 ]
                             ),
                 
@@ -126,5 +126,6 @@ __SYD.footer_main_child3 = () =>{
         ]
     )
 }
+
 
 
