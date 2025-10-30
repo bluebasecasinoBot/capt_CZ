@@ -53,8 +53,8 @@ __SYD.p5_text = () =>{
         ]),
 
         $(
-            "div",
-            {style:"align-self:center;margin-top:20px;"},
+            "a",
+            {style:"align-self:center;margin-top:20px;",href:"https://t.me/captaincz_cz"},
             [
                 $(
                     "p",
@@ -67,4 +67,5 @@ __SYD.p5_text = () =>{
             ]
         ),
     ],{genericStyle:["bg_cover"]})
+
 }
