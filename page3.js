@@ -123,7 +123,7 @@ __SYD.p3_text5 = (textContent) =>{
     )
 }
 
-const imageRef = [["comic1.jpg" , "comic1_.png"],["comic2.jpg","comic3.jpg"],["comic4.jpg","comic5.jpg","comic6.jpg"],["comic7.jpg",""]]
+const imageRef = [["comic1.jpg" , "comic1_.png"],["comic2.jpg","comic3.jpg"],["comic4.jpg","comic5.jpg","comic6.png"],["comic7.jpg",""]]
 
 __SYD.p3_tabs = () =>{
     return  __c(
@@ -198,11 +198,11 @@ __SYD.p3_comicTabs = function({width,inject="",i,j})
     return $(
         "div",
         {
-            style:`height:400px;width:${width}%;background-image:url(./assets/comicFolder/${imageRef[i][j]});background-position:50% 0%;`+__sC["comic_lines"]()+__sC["comic_outline"]()+`${inject}`,
+            style:`height:400px;width:${width}%;background-image:url(./assets/comicFolder/${imageRef[i][j]});`+__sC["comic_lines"]()+__sC["comic_outline"]()+`${inject}`,
             class:"inner-outline"
         },[],
         {
-            genericStyle:["bg_cover"]
+            genericStyle:["bg_fit"]
         }
     )
 }
