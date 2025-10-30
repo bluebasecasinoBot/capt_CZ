@@ -49,7 +49,7 @@ __SYD.mobileMenuLogo = () =>{
     return __c(
         "div",
         {
-            style:`height:40px;width:60px;position:absolute;top:15px;right:${__p(["navBar" , "mobilePadState"], false) ? "30px" : "50px"};background-color:transparent;border:1px solid #ffffff;border-radius:5px;display:${__p(["navBar" , "desktopMode"],true) ? "none" : "block"};cursor:pointer;background-image:url(./assets/menu.png);background-size:45%;`
+            style:`height:40px;width:60px;position:absolute;top:15px;right:${__p(["navBar" , "mobilePadState"], false) ? "30px" : "50px"};background-color:transparent;border:2px solid #000000;border-radius:5px;display:${__p(["navBar" , "desktopMode"],true) ? "none" : "block"};cursor:pointer;background-image:url(./assets/menu.png);background-size:45%;`
         },[],
         {
             genericStyle:['bg_cover'],
